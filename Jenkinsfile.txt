@@ -5,8 +5,7 @@ pipeline {
 		
 		// ******ALL CODE TO BE ADDED BELOW THIS COMMENT******
 		
-			
-			
+		
 		//Code starts for stage Clean
         stage('Clean') {
             steps {
@@ -34,6 +33,9 @@ pipeline {
 		//Code ends for stage Compile
 		
 		
+
+		
+		
 		//Code starts for stage Unit Test
         stage('Unit Test') {
             steps {
@@ -55,4 +57,8 @@ pipeline {
             }
         }
 		//Code ends for stage Code Coverage
-
+	
+	
+		// ******ALL CODE TO BE ADDED ABOVE THIS COMMENT******
+    }
+}
